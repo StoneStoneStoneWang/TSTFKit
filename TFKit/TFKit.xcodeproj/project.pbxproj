@@ -15,6 +15,7 @@
 		6C4DFF8620CE138B00F3E356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFF8520CE138B00F3E356 /* main.m */; };
 		6C4DFF9020CE138B00F3E356 /* TFKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFF8F20CE138B00F3E356 /* TFKitTests.m */; };
 		6C4DFF9B20CE138B00F3E356 /* TFKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFF9A20CE138B00F3E356 /* TFKitUITests.m */; };
+		6C4DFFA920CE1AF500F3E356 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C4DFFA820CE1AF500F3E356 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6C4DFF9620CE138B00F3E356 /* TFKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4DFF9A20CE138B00F3E356 /* TFKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFKitUITests.m; sourceTree = "<group>"; };
 		6C4DFF9C20CE138B00F3E356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4DFFA820CE1AF500F3E356 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		6C4DFF6A20CE138A00F3E356 = {
 			isa = PBXGroup;
 			children = (
+				6C4DFFA820CE1AF500F3E356 /* Podfile */,
 				6C4DFF7520CE138A00F3E356 /* TFKit */,
 				6C4DFF8E20CE138B00F3E356 /* TFKitTests */,
 				6C4DFF9920CE138B00F3E356 /* TFKitUITests */,
@@ -240,6 +243,7 @@
 			files = (
 				6C4DFF8320CE138B00F3E356 /* LaunchScreen.storyboard in Resources */,
 				6C4DFF8020CE138B00F3E356 /* Assets.xcassets in Resources */,
+				6C4DFFA920CE1AF500F3E356 /* Podfile in Resources */,
 				6C4DFF7E20CE138A00F3E356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

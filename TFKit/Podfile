@@ -1,0 +1,11 @@
+platform :ios, '7.0'
+
+use_frameworks!
+
+project '/Users/threestonewang/Desktop/仓库/TFKit/TFKit/TFKit.xcodeproj'
+
+target 'TFKit' do
+
+pod 'TFKit'
+
+end
