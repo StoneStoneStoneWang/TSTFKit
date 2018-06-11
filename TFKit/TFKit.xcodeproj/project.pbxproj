@@ -16,6 +16,7 @@
 		6C4DFF9020CE138B00F3E356 /* TFKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFF8F20CE138B00F3E356 /* TFKitTests.m */; };
 		6C4DFF9B20CE138B00F3E356 /* TFKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFF9A20CE138B00F3E356 /* TFKitUITests.m */; };
 		6C4DFFA920CE1AF500F3E356 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C4DFFA820CE1AF500F3E356 /* Podfile */; };
+		BECF882F81518FC5951A0F18 /* Pods_TFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66DE5A29D0FED79E44E9D61 /* Pods_TFKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05AD05459A3B070D5B044E6C /* Pods-TFKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TFKit/Pods-TFKit.debug.xcconfig"; sourceTree = "<group>"; };
 		6C4DFF7320CE138A00F3E356 /* TFKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4DFF7620CE138A00F3E356 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C4DFF7720CE138A00F3E356 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		6C4DFF9A20CE138B00F3E356 /* TFKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFKitUITests.m; sourceTree = "<group>"; };
 		6C4DFF9C20CE138B00F3E356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C4DFFA820CE1AF500F3E356 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A92513AC16D8A63F3A19155B /* Pods-TFKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFKit/Pods-TFKit.release.xcconfig"; sourceTree = "<group>"; };
+		F66DE5A29D0FED79E44E9D61 /* Pods_TFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECF882F81518FC5951A0F18 /* Pods_TFKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16F403833FD5FDD4F4B4DBE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F66DE5A29D0FED79E44E9D61 /* Pods_TFKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18580552DED13D851E5D3714 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05AD05459A3B070D5B044E6C /* Pods-TFKit.debug.xcconfig */,
+				A92513AC16D8A63F3A19155B /* Pods-TFKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6C4DFF6A20CE138A00F3E356 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +110,8 @@
 				6C4DFF8E20CE138B00F3E356 /* TFKitTests */,
 				6C4DFF9920CE138B00F3E356 /* TFKitUITests */,
 				6C4DFF7420CE138A00F3E356 /* Products */,
+				18580552DED13D851E5D3714 /* Pods */,
+				16F403833FD5FDD4F4B4DBE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C4DFF9F20CE138B00F3E356 /* Build configuration list for PBXNativeTarget "TFKit" */;
 			buildPhases = (
+				1D87E77115DC760F44B5343C /* [CP] Check Pods Manifest.lock */,
 				6C4DFF6F20CE138A00F3E356 /* Sources */,
 				6C4DFF7020CE138A00F3E356 /* Frameworks */,
 				6C4DFF7120CE138A00F3E356 /* Resources */,
+				CD5121815C96A2DE8E5EC7B6 /* [CP] Embed Pods Frameworks */,
+				872A323D31A9C0104191B8DD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,6 +290,60 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D87E77115DC760F44B5343C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		872A323D31A9C0104191B8DD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFKit/Pods-TFKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5121815C96A2DE8E5EC7B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TFKit/Pods-TFKit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TFKit/TFKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TFKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFKit/Pods-TFKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C4DFF6F20CE138A00F3E356 /* Sources */ = {
@@ -432,6 +513,7 @@
 		};
 		6C4DFFA020CE138B00F3E356 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05AD05459A3B070D5B044E6C /* Pods-TFKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +528,7 @@
 		};
 		6C4DFFA120CE138B00F3E356 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92513AC16D8A63F3A19155B /* Pods-TFKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

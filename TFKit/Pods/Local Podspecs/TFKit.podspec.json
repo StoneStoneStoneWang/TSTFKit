@@ -1,0 +1,23 @@
+{
+  "name": "TFKit",
+  "version": "0.0.1",
+  "summary": "A Lib For TextField.",
+  "description": "TFKit是一个综合类的textfield工具类。",
+  "homepage": "https://github.com/StoneStoneStoneWang/TFKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.md"
+  },
+  "authors": {
+    "StoneStoneStoneWang": "yuanxingfu1314@163.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/StoneStoneStoneWang/TFKit.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Code/**/*.{h,m}"
+}

@@ -1,0 +1,6 @@
+framework module TFKit {
+  umbrella header "TFKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
