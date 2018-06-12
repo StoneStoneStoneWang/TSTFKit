@@ -4,4 +4,4 @@ TFKit
 
 ## Pod
 
-##pod 'TSTFKit',:git=>'https://github.com/StoneStoneStoneWang/TSTFKit.git'
+pod 'TSTFKit',:git=>'https://github.com/StoneStoneStoneWang/TSTFKit.git'
