@@ -10,7 +10,10 @@
 #endif
 #endif
 
+#import "TFDefines.h"
+#import "TFLeftImageTF.h"
 #import "TSTextField.h"
+#import "TSTextFieldDelegate.h"
 
 FOUNDATION_EXPORT double TFKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TFKitVersionString[];

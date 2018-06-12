@@ -1,5 +1,5 @@
 PODS:
-  - TFKit (0.0.1)
+  - TFKit (1.0.1)
 
 DEPENDENCIES:
   - TFKit (from `https://github.com/StoneStoneStoneWang/TFKit.git`)
@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TFKit:
-    :commit: e8978ed2922bd23f53771f062b7c65a62e143fdb
+    :commit: f7a8de356cfc2491db592ffd718d882b1bbc965b
     :git: https://github.com/StoneStoneStoneWang/TFKit.git
 
 SPEC CHECKSUMS:
-  TFKit: cd276dea2ac4b146e4ea73a6c88b8ea43e668f5a
+  TFKit: e58da07bdda87560f24d37c4f5c1883cf296afad
 
 PODFILE CHECKSUM: 5182488183d6aefbed79b39df047e742212f2131
 

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 // 一般情况下 登陆注册 都是左边icon 右边输入文本
-typedef NS_ENUM(NSInteger, TextFieldEditType) {
+NS_ENUM(NSInteger, TextFieldEditType) {
     TextFieldEditTypePhone, // 手机号
     TextFieldEditTypeSecret, // 密码
     TextFieldEditTypeVCode_Length4, // 4位验证码

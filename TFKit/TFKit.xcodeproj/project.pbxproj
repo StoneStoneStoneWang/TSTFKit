@@ -54,7 +54,7 @@
 		6C4DFF9620CE138B00F3E356 /* TFKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4DFF9A20CE138B00F3E356 /* TFKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFKitUITests.m; sourceTree = "<group>"; };
 		6C4DFF9C20CE138B00F3E356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C4DFFA820CE1AF500F3E356 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6C4DFFA820CE1AF500F3E356 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A92513AC16D8A63F3A19155B /* Pods-TFKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFKit/Pods-TFKit.release.xcconfig"; sourceTree = "<group>"; };
 		F66DE5A29D0FED79E44E9D61 /* Pods_TFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
