@@ -16,7 +16,9 @@ s.ios.deployment_target = "9.0"
 
 s.requires_arc = true
 
-s.source       = { :git => "https://github.com/StoneStoneStoneWang/TSTFKit.git", :tag => "#{s.version}" }
+s.frameworks = 'UIKit', 'Foundation'
+
+s.source = { :git => "https://github.com/StoneStoneStoneWang/TSTFKit.git", :tag => "#{s.version}" }
 
 s.source_files = "Code/**/*.{h,m}"
 
