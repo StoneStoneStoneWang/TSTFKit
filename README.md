@@ -5,7 +5,7 @@ TFKit
 ## Pod
 
 pod 'TSTFKit',:git=>'https://github.com/StoneStoneStoneWang/TSTFKit.git'
-
+## 使用
     TFLeftTitleTF *ltf = [[TFLeftTitleTF alloc] initWithFrame: CGRectMake(20, 80, self.view.bounds.size.width - 40, 48)];
     
     [self.view addSubview:ltf];
