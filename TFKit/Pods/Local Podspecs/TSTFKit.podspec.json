@@ -1,9 +1,9 @@
 {
-  "name": "TFKit",
-  "version": "1.0.1",
+  "name": "TSTFKit",
+  "version": "1.0.3",
   "summary": "A Lib For TextField.",
   "description": "TFKit是一个综合类的textfield工具类。",
-  "homepage": "https://github.com/StoneStoneStoneWang/TFKit",
+  "homepage": "https://github.com/StoneStoneStoneWang/TSTFKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE.md"
@@ -16,8 +16,8 @@
   },
   "requires_arc": true,
   "source": {
-    "git": "https://github.com/StoneStoneStoneWang/TFKit.git",
-    "tag": "1.0.1"
+    "git": "https://github.com/StoneStoneStoneWang/TSTFKit.git",
+    "tag": "1.0.3"
   },
   "source_files": "Code/**/*.{h,m}"
 }

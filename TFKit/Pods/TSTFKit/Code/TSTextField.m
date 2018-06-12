@@ -166,14 +166,41 @@
 
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     
+    NSCharacterSet *cs;
+    
+    //    NSLog(@"%@",string);
+    
+    //    NSLog(@"%@",range);
     switch (self.type) {
         case TextFieldEditTypePhone:
         case TextFieldEditTypeVCode_Length4:
         case TextFieldEditTypeVCode_Length6:
+        {
+            cs = [[NSCharacterSet characterSetWithCharactersInString:myNumbers] invertedSet];
+            
+            NSString *filtered = [[string componentsSeparatedByCharactersInSet:cs] componentsJoinedByString:@""];
+            
+            if ([string containsString:@"-"]) {
+                
+                string = [string stringByReplacingOccurrencesOfString:@"-"withString:@""];
+            }
+            
+            BOOL basicTest = [string isEqualToString:filtered];
+            
+            if (!basicTest) {
+                // 仅能输入数字
+                return NO;
+            } else {
+                
+                if (string.length == 11) {
+                    
+                    self.text = string;
+                }
+            }
             return range.length == 1 && string.length == 0 ? true : textField.text.length < self.maxLength;
+        }
         case TextFieldEditTypePriceEdit:
         {
-            NSCharacterSet *cs;
             
             NSUInteger nDotLoc = [textField.text rangeOfString:@"."].location;
             
@@ -194,6 +221,8 @@
                 //                小数点后最多2位
                 return false;
             }
+            
+            return range.length == 1 && string.length == 0 ? true : textField.text.length < self.maxLength;
         }
         default:
             break;
@@ -201,7 +230,16 @@
     
     return self.maxLength;
 }
-
+- (void)setBottomLineColor:(UIColor *)bottomLineColor {
+    _bottomLineColor = bottomLineColor;
+    
+    self.bottomLine.backgroundColor = bottomLineColor;
+}
+- (void)setTopLineColor:(UIColor *)topLineColor {
+    _topLineColor = topLineColor;
+    
+    self.topLine.backgroundColor = topLineColor;
+}
 - (void)layoutSubviews {
     [super layoutSubviews];
     

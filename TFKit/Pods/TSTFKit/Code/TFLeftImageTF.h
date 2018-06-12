@@ -10,7 +10,8 @@
 
 @interface TFLeftImageTF : TSTextField
 
+@property (nonatomic ,strong) UIImage *leftImage;
 
-
+@property (nonatomic ,assign) CGRect leftImageViewFrame;
 
 @end

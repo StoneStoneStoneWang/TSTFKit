@@ -12,9 +12,10 @@
 
 #import "TFDefines.h"
 #import "TFLeftImageTF.h"
+#import "TFLeftTitleTF.h"
 #import "TSTextField.h"
 #import "TSTextFieldDelegate.h"
 
-FOUNDATION_EXPORT double TFKitVersionNumber;
-FOUNDATION_EXPORT const unsigned char TFKitVersionString[];
+FOUNDATION_EXPORT double TSTFKitVersionNumber;
+FOUNDATION_EXPORT const unsigned char TSTFKitVersionString[];
 

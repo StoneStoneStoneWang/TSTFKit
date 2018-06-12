@@ -332,11 +332,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TFKit/Pods-TFKit-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TFKit/TFKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TSTFKit/TSTFKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TFKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSTFKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
