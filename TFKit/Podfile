@@ -5,6 +5,6 @@ use_frameworks!
 target 'TFKit' do
 
 # pod 'TFKit',:git=>'/Users/threestonewang/Desktop/TFKit'
-pod 'TFKit',:git=>'https://github.com/StoneStoneStoneWang/TFKit.git'
+pod 'TSTFKit',:git=>'https://github.com/StoneStoneStoneWang/TSTFKit.git'
 
 end
