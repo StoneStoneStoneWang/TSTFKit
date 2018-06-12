@@ -24,7 +24,7 @@
 
 @property (nonatomic ,strong) UIImageView *bottomLine;
 
-@property (nonatomic ,assign) enum TextFieldEditType type;
+@property (nonatomic ,assign) TextFieldEditType type;
 
 @property (nonatomic ,assign) BOOL hasDot;
 

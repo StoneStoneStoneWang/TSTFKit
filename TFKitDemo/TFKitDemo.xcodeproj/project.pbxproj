@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6C21AC4320CF7062001ABDD4 /* TFLeftImageTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C21AC3F20CF7062001ABDD4 /* TFLeftImageTF.m */; };
 		6C21AC4420CF7062001ABDD4 /* TSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C21AC4120CF7062001ABDD4 /* TSTextField.m */; };
+		6C21AC4720CF88B1001ABDD4 /* TFLeftTitleTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C21AC4620CF88B1001ABDD4 /* TFLeftTitleTF.m */; };
 		6C4DFFC420CE52CA00F3E356 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFFC320CE52CA00F3E356 /* AppDelegate.m */; };
 		6C4DFFC720CE52CA00F3E356 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFFC620CE52CA00F3E356 /* ViewController.m */; };
 		6C4DFFCA20CE52CA00F3E356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4DFFC820CE52CA00F3E356 /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 		6C21AC4020CF7062001ABDD4 /* TSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTextField.h; sourceTree = "<group>"; };
 		6C21AC4120CF7062001ABDD4 /* TSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTextField.m; sourceTree = "<group>"; };
 		6C21AC4220CF7062001ABDD4 /* TSTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTextFieldDelegate.h; sourceTree = "<group>"; };
+		6C21AC4520CF88B1001ABDD4 /* TFLeftTitleTF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFLeftTitleTF.h; sourceTree = "<group>"; };
+		6C21AC4620CF88B1001ABDD4 /* TFLeftTitleTF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFLeftTitleTF.m; sourceTree = "<group>"; };
 		6C4DFFBF20CE52CA00F3E356 /* TFKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4DFFC220CE52CA00F3E356 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C4DFFC320CE52CA00F3E356 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				6C21AC3D20CF7062001ABDD4 /* TFDefines.h */,
 				6C21AC3E20CF7062001ABDD4 /* TFLeftImageTF.h */,
 				6C21AC3F20CF7062001ABDD4 /* TFLeftImageTF.m */,
+				6C21AC4520CF88B1001ABDD4 /* TFLeftTitleTF.h */,
+				6C21AC4620CF88B1001ABDD4 /* TFLeftTitleTF.m */,
 				6C21AC4020CF7062001ABDD4 /* TSTextField.h */,
 				6C21AC4120CF7062001ABDD4 /* TSTextField.m */,
 				6C21AC4220CF7062001ABDD4 /* TSTextFieldDelegate.h */,
@@ -293,6 +298,7 @@
 				6C4DFFC720CE52CA00F3E356 /* ViewController.m in Sources */,
 				6C4DFFD220CE52CA00F3E356 /* main.m in Sources */,
 				6C4DFFC420CE52CA00F3E356 /* AppDelegate.m in Sources */,
+				6C21AC4720CF88B1001ABDD4 /* TFLeftTitleTF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9TR9D33ZW;
 				INFOPLIST_FILE = TFKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harpbj.TFKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9TR9D33ZW;
 				INFOPLIST_FILE = TFKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.harpbj.TFKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

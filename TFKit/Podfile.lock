@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TFKit:
-    :commit: f7a8de356cfc2491db592ffd718d882b1bbc965b
+    :commit: 91d33a46b7bbacc13993cc44a372e5139ed02b5f
     :git: https://github.com/StoneStoneStoneWang/TFKit.git
 
 SPEC CHECKSUMS:

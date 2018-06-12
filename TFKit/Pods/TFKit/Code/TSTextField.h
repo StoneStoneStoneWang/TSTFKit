@@ -33,6 +33,6 @@
 
 // 设置类型 参考枚举定义
 
-- (void)makeEditType:(enum TextFieldEditType)type;
+- (void)makeEditType:(TextFieldEditType)type;
 
 @end
