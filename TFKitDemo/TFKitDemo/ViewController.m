@@ -95,11 +95,13 @@
     
     [self.view addSubview:phone];
     
+    phone.textColor = [UIColor whiteColor];
+    
     phone.placeholder = @"请输入手机号";
     
     phone.leftImage = [UIImage imageNamed:@"手机"];
     
-    [secret makeEditType:(TextFieldEditTypePhone)];
+    [phone makeEditType:(TextFieldEditTypePhone)];
     
     phone.backgroundColor = [UIColor blueColor];
     
