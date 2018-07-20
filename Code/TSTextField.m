@@ -228,7 +228,7 @@
             return range.length == 1 && string.length == 0 ? true : textField.text.length < self.maxLength;
         }
         default:
-            break;
+            return range.length == 1 && string.length == 0 ? true : textField.text.length < self.maxLength;
     }
     
     return self.maxLength;

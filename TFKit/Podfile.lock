@@ -1,5 +1,5 @@
 PODS:
-  - TSTFKit (1.0.3)
+  - TSTFKit (1.0.4)
 
 DEPENDENCIES:
   - TSTFKit (from `https://github.com/StoneStoneStoneWang/TSTFKit.git`)
@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TSTFKit:
-    :commit: a1668c274464d0e52f84fecca72766ae25bd7d07
+    :commit: a709b198ddd9fdc326dcc2ef7e25d50be9404897
     :git: https://github.com/StoneStoneStoneWang/TSTFKit.git
 
 SPEC CHECKSUMS:
-  TSTFKit: f8bc67b4caf931acffd57e29bc6ce00fbfa5a9eb
+  TSTFKit: f248e6d625ed23f33368cee665886670b36cd784
 
 PODFILE CHECKSUM: 56f55b3b769116ab62fdfe1b6cf1558f98812d04
 

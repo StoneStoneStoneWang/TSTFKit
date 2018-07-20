@@ -63,6 +63,7 @@
 		6C4DFFE220CE52CA00F3E356 /* TFKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4DFFE620CE52CA00F3E356 /* TFKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFKitDemoUITests.m; sourceTree = "<group>"; };
 		6C4DFFE820CE52CA00F3E356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4E94212101D86A00B0BCBE /* TSTFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTFKit.h; sourceTree = "<group>"; };
 		6CD91AF320D7BCF000DC0F6A /* NSString+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
 		6CD91AF420D7BCF000DC0F6A /* NSString+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +106,7 @@
 				6C21AC4220CF7062001ABDD4 /* TSTextFieldDelegate.h */,
 				6CD91AF320D7BCF000DC0F6A /* NSString+Util.h */,
 				6CD91AF420D7BCF000DC0F6A /* NSString+Util.m */,
+				6C4E94212101D86A00B0BCBE /* TSTFKit.h */,
 			);
 			name = Code;
 			path = ../../Code;

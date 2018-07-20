@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+Util.h"
 #import "TFDefines.h"
 #import "TFLeftImageTF.h"
 #import "TFLeftTitleTF.h"

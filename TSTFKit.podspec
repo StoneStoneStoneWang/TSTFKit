@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "TSTFKit"
-s.version      = "1.0.4"
+s.version      = "1.0.5"
 s.summary      = "A Lib For TextField."
 s.description  = <<-DESC
 TFKit是一个综合类的textfield工具类。

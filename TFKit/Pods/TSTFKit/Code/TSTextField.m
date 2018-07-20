@@ -48,6 +48,8 @@
             self.secureTextEntry = true;
             
             self.maxLength = 18;
+            
+            self.keyboardType = UIKeyboardTypeDefault;
         }
             break;
         case TextFieldEditTypePhone:
@@ -80,11 +82,12 @@
             break;
         case TextFieldEditTypeDetault:
         {
-            
             self.maxLength = 99;
         }
             break;
         default:
+            
+            
             break;
     }
 }

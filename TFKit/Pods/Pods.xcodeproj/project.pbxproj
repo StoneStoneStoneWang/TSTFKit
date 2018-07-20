@@ -7,20 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ED7B215CE8E427ADD95C69895568DB5 /* TSTFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 595C4E5D1580E06CC13298F811F382DC /* TSTFKit-dummy.m */; };
-		19731AE106B053D08EACC380E364D84A /* TFDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FE90C93E6877FB821A61C08ACF6DA282 /* TFDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E6D5B03987721C5E6C90B246D225124 /* TFLeftImageTF.m in Sources */ = {isa = PBXBuildFile; fileRef = C6901CE1D4FBA99163F0D382A1B8964A /* TFLeftImageTF.m */; };
 		27345D742ABB8B4EF90A86FB2D3FC864 /* Pods-TFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 857CD5932A063F84BA48D38287E1D777 /* Pods-TFKit-dummy.m */; };
-		341E3E7718B9935BC15B1EBA50B053BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4A4295BEABAE7F232368A086150B54F9 /* TSTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5088DD5377B33C3988D843DDF63FAC35 /* TSTextFieldDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54C6AEADB597E6FFB1B38744F2AFCF15 /* TSTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D28E2154921F0AD369ED2B1B4532DE4 /* TSTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54D9D25741C0F50C5A58FD58685CC1BF /* TFLeftTitleTF.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF8BD81663D3EFFA416F193D0568F66 /* TFLeftTitleTF.m */; };
-		584CE73C757E3BB7E26A6931028A418A /* TSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 417BB60757B1BD5382758DDD86D61331 /* TSTextField.m */; };
+		341E3E7718B9935BC15B1EBA50B053BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		34CCEC58A041708157B5F795098A1037 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 116814452B6109DDEC88BDC92FF353B6 /* NSString+Util.m */; };
+		37431F1EC801E48FD3FEABD5E64A11DF /* TFLeftTitleTF.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D879320D29E7D667544CAF0EC6136B /* TFLeftTitleTF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37AF0AFB1AD747381D6272236541B4B4 /* TSTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = A9574C7341980216B66CF6E915924542 /* TSTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54FA38155ED37956F48DBB9D34366975 /* TFLeftImageTF.m in Sources */ = {isa = PBXBuildFile; fileRef = CF11FBABDE278CF417839DCFD5346AC1 /* TFLeftImageTF.m */; };
+		559E6DF813E9C539C3E7C3237A4FE8CA /* TFLeftTitleTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 751D47662A422B93E0DC0E9079916D97 /* TFLeftTitleTF.m */; };
+		6CC4F98D142229C1B32EDFEA92D689EA /* TFDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1033C16CED1A822F5649E8786E17BDD9 /* TFDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E0C7AB57CC459E6EED657841D4D7B3 /* TSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0B0827EB8D8A87A825C6E6E66F5C83 /* TSTextField.m */; };
 		817867EE2E9C8BE94F65326E2C5089E7 /* Pods-TFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB2A1A274A0F82A8D82D56A3B230421 /* Pods-TFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B8D90E0987058283E86C65F4AB314ED /* TSTFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDDEC49D8D9281699703461969B5ED43 /* TSTFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2FB4764859157328F50BBDBCC526AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D3C7BB42437AB3BC91E32815993F8887 /* TFLeftImageTF.h in Headers */ = {isa = PBXBuildFile; fileRef = D97121603AE3C635B44E59DD1466FAD6 /* TFLeftImageTF.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F869B05B7A0EBFC53236FD13236F549C /* TFLeftTitleTF.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDC513508A5C7976F1540A8E2A506E9 /* TFLeftTitleTF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81C4CAD05E6DAE97207D4BA28F893F72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8EF26AB0EFCEBC8803A84ADBE4C52A31 /* TSTFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6741B4D89BB94031CCB3738CF8D89322 /* TSTFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D123DB0E0708FAC54D37B3011730DA3E /* TSTextFieldDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BEB688307EBB7D7C59A0EBBEFDBA5B20 /* TSTextFieldDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1247EFAF5A9B3EB818A84857364AF8D /* TSTFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1425BF3EF025926A39F7ACCC80EE130D /* TSTFKit-dummy.m */; };
+		D5261C65D71CE24318DDA188741419F6 /* NSString+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FA61886D09623A506AF3958A874797 /* NSString+Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF5B9BDFCDC534FCF78B05B84AA2F8B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		E2698EA3740AF047CAC46276117A79CB /* TFLeftImageTF.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F6D773D0B3D464A13F70CD3D011ACA /* TFLeftImageTF.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,34 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01FA61886D09623A506AF3958A874797 /* NSString+Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Util.h"; path = "Code/NSString+Util.h"; sourceTree = "<group>"; };
 		0BB2A1A274A0F82A8D82D56A3B230421 /* Pods-TFKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFKit-umbrella.h"; sourceTree = "<group>"; };
+		1033C16CED1A822F5649E8786E17BDD9 /* TFDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFDefines.h; path = Code/TFDefines.h; sourceTree = "<group>"; };
+		116814452B6109DDEC88BDC92FF353B6 /* NSString+Util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Util.m"; path = "Code/NSString+Util.m"; sourceTree = "<group>"; };
+		11F6D773D0B3D464A13F70CD3D011ACA /* TFLeftImageTF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLeftImageTF.h; path = Code/TFLeftImageTF.h; sourceTree = "<group>"; };
+		1425BF3EF025926A39F7ACCC80EE130D /* TSTFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSTFKit-dummy.m"; sourceTree = "<group>"; };
 		18D3AFD187053380494E784123A8A703 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		413569CD0459DC035ACB599635498A09 /* Pods_TFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TFKit.framework; path = "Pods-TFKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		417BB60757B1BD5382758DDD86D61331 /* TSTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSTextField.m; path = Code/TSTextField.m; sourceTree = "<group>"; };
-		44493F99FCB98E23908D91800DD01F2B /* TSTFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSTFKit-prefix.pch"; sourceTree = "<group>"; };
-		4D28E2154921F0AD369ED2B1B4532DE4 /* TSTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSTextField.h; path = Code/TSTextField.h; sourceTree = "<group>"; };
-		5088DD5377B33C3988D843DDF63FAC35 /* TSTextFieldDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSTextFieldDelegate.h; path = Code/TSTextFieldDelegate.h; sourceTree = "<group>"; };
+		5465492D70275440D8E2ABAA7545B695 /* TSTFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSTFKit-prefix.pch"; sourceTree = "<group>"; };
 		5591DAAE8B1E96D2D6B383A72CBAE573 /* TSTFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TSTFKit.framework; path = TSTFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		595C4E5D1580E06CC13298F811F382DC /* TSTFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSTFKit-dummy.m"; sourceTree = "<group>"; };
+		5C0B0827EB8D8A87A825C6E6E66F5C83 /* TSTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TSTextField.m; path = Code/TSTextField.m; sourceTree = "<group>"; };
 		6222E136F15968508E9AA80411B5F15E /* Pods-TFKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFKit-acknowledgements.plist"; sourceTree = "<group>"; };
 		627E2E84C4B663B22B1A9E830F5210B1 /* Pods-TFKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63EA5B82C5E56F92018451906EFF5E27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7AB8165090AA49398B395D2083E75482 /* TSTFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TSTFKit.modulemap; sourceTree = "<group>"; };
+		6741B4D89BB94031CCB3738CF8D89322 /* TSTFKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSTFKit-umbrella.h"; sourceTree = "<group>"; };
+		751D47662A422B93E0DC0E9079916D97 /* TFLeftTitleTF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLeftTitleTF.m; path = Code/TFLeftTitleTF.m; sourceTree = "<group>"; };
 		857CD5932A063F84BA48D38287E1D777 /* Pods-TFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFKit-dummy.m"; sourceTree = "<group>"; };
+		894BB4E6CB7A9BDA097D490738F527EC /* TSTFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TSTFKit.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3F18D3746C135EEFDEC55D768FA2535 /* TSTFKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSTFKit.xcconfig; sourceTree = "<group>"; };
-		ACF8BD81663D3EFFA416F193D0568F66 /* TFLeftTitleTF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLeftTitleTF.m; path = Code/TFLeftTitleTF.m; sourceTree = "<group>"; };
+		A9574C7341980216B66CF6E915924542 /* TSTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSTextField.h; path = Code/TSTextField.h; sourceTree = "<group>"; };
 		B15E8E9620B3C5E8F73DF514EC3725A0 /* Pods-TFKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFKit.debug.xcconfig"; sourceTree = "<group>"; };
-		BDDEC49D8D9281699703461969B5ED43 /* TSTFKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSTFKit-umbrella.h"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B672010E68D1C263D8A6274FAC021406 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB688307EBB7D7C59A0EBBEFDBA5B20 /* TSTextFieldDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TSTextFieldDelegate.h; path = Code/TSTextFieldDelegate.h; sourceTree = "<group>"; };
 		C46E03555AEFF82D15D3AFCB35013A47 /* Pods-TFKit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFKit-frameworks.sh"; sourceTree = "<group>"; };
-		C6901CE1D4FBA99163F0D382A1B8964A /* TFLeftImageTF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLeftImageTF.m; path = Code/TFLeftImageTF.m; sourceTree = "<group>"; };
-		D97121603AE3C635B44E59DD1466FAD6 /* TFLeftImageTF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLeftImageTF.h; path = Code/TFLeftImageTF.h; sourceTree = "<group>"; };
-		EBDC513508A5C7976F1540A8E2A506E9 /* TFLeftTitleTF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLeftTitleTF.h; path = Code/TFLeftTitleTF.h; sourceTree = "<group>"; };
+		CF11FBABDE278CF417839DCFD5346AC1 /* TFLeftImageTF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFLeftImageTF.m; path = Code/TFLeftImageTF.m; sourceTree = "<group>"; };
+		D61AE73BE77F1C78BED099A3FDA4AAC3 /* TSTFKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSTFKit.xcconfig; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E3D879320D29E7D667544CAF0EC6136B /* TFLeftTitleTF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFLeftTitleTF.h; path = Code/TFLeftTitleTF.h; sourceTree = "<group>"; };
 		EF4BC3B4ECF875360F53D0C25C606F06 /* Pods-TFKit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFKit-resources.sh"; sourceTree = "<group>"; };
 		F7AC9B76F85F71D1360752599AA34B42 /* Pods-TFKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFKit.release.xcconfig"; sourceTree = "<group>"; };
 		FACB8D47C7C8D25398CF277A1BD87CC3 /* Pods-TFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TFKit.modulemap"; sourceTree = "<group>"; };
-		FE90C93E6877FB821A61C08ACF6DA282 /* TFDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFDefines.h; path = Code/TFDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,54 +79,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F09698F30A7D12C3AA796D94EDB23B37 /* Frameworks */ = {
+		BCB01930CC3F830E81421F1340522BC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2FB4764859157328F50BBDBCC526AFC /* Foundation.framework in Frameworks */,
+				81C4CAD05E6DAE97207D4BA28F893F72 /* Foundation.framework in Frameworks */,
+				DF5B9BDFCDC534FCF78B05B84AA2F8B8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FB7CEDE5C523E7B7A4D92A5AA764911 /* TSTFKit */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE90C93E6877FB821A61C08ACF6DA282 /* TFDefines.h */,
-				D97121603AE3C635B44E59DD1466FAD6 /* TFLeftImageTF.h */,
-				C6901CE1D4FBA99163F0D382A1B8964A /* TFLeftImageTF.m */,
-				EBDC513508A5C7976F1540A8E2A506E9 /* TFLeftTitleTF.h */,
-				ACF8BD81663D3EFFA416F193D0568F66 /* TFLeftTitleTF.m */,
-				4D28E2154921F0AD369ED2B1B4532DE4 /* TSTextField.h */,
-				417BB60757B1BD5382758DDD86D61331 /* TSTextField.m */,
-				5088DD5377B33C3988D843DDF63FAC35 /* TSTextFieldDelegate.h */,
-				5AEE6C91CB6FD142670F4224F92105B8 /* Support Files */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = TSTFKit;
-			path = TSTFKit;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5AEE6C91CB6FD142670F4224F92105B8 /* Support Files */ = {
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				63EA5B82C5E56F92018451906EFF5E27 /* Info.plist */,
-				7AB8165090AA49398B395D2083E75482 /* TSTFKit.modulemap */,
-				A3F18D3746C135EEFDEC55D768FA2535 /* TSTFKit.xcconfig */,
-				595C4E5D1580E06CC13298F811F382DC /* TSTFKit-dummy.m */,
-				44493F99FCB98E23908D91800DD01F2B /* TSTFKit-prefix.pch */,
-				BDDEC49D8D9281699703461969B5ED43 /* TSTFKit-umbrella.h */,
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TSTFKit";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		59ACD8D32A276085D73F9CED1B9C7887 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F48AE28D414C3AE033036BDC8C03FE1C /* TSTFKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D01FE3F52B24BF97A7273FF9CCB3AEEB /* Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				59ACD8D32A276085D73F9CED1B9C7887 /* Pods */,
 				C50CDD483854CCAFC2C821D1390BD62E /* Products */,
 				BB45B0071BCDF4F719E9FB73FA05F962 /* Targets Support Files */,
 			);
@@ -134,14 +135,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C50CDD483854CCAFC2C821D1390BD62E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,22 +142,6 @@
 				5591DAAE8B1E96D2D6B383A72CBAE573 /* TSTFKit.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D01FE3F52B24BF97A7273FF9CCB3AEEB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1FB7CEDE5C523E7B7A4D92A5AA764911 /* TSTFKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		E186DF8BD3AB2DDE3DDF1232B415317D /* Pods-TFKit */ = {
@@ -185,6 +162,39 @@
 			path = "Target Support Files/Pods-TFKit";
 			sourceTree = "<group>";
 		};
+		F0C270AC0B84631E6DEB97D3E707EDAD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B672010E68D1C263D8A6274FAC021406 /* Info.plist */,
+				894BB4E6CB7A9BDA097D490738F527EC /* TSTFKit.modulemap */,
+				D61AE73BE77F1C78BED099A3FDA4AAC3 /* TSTFKit.xcconfig */,
+				1425BF3EF025926A39F7ACCC80EE130D /* TSTFKit-dummy.m */,
+				5465492D70275440D8E2ABAA7545B695 /* TSTFKit-prefix.pch */,
+				6741B4D89BB94031CCB3738CF8D89322 /* TSTFKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TSTFKit";
+			sourceTree = "<group>";
+		};
+		F48AE28D414C3AE033036BDC8C03FE1C /* TSTFKit */ = {
+			isa = PBXGroup;
+			children = (
+				01FA61886D09623A506AF3958A874797 /* NSString+Util.h */,
+				116814452B6109DDEC88BDC92FF353B6 /* NSString+Util.m */,
+				1033C16CED1A822F5649E8786E17BDD9 /* TFDefines.h */,
+				11F6D773D0B3D464A13F70CD3D011ACA /* TFLeftImageTF.h */,
+				CF11FBABDE278CF417839DCFD5346AC1 /* TFLeftImageTF.m */,
+				E3D879320D29E7D667544CAF0EC6136B /* TFLeftTitleTF.h */,
+				751D47662A422B93E0DC0E9079916D97 /* TFLeftTitleTF.m */,
+				A9574C7341980216B66CF6E915924542 /* TSTextField.h */,
+				5C0B0827EB8D8A87A825C6E6E66F5C83 /* TSTextField.m */,
+				BEB688307EBB7D7C59A0EBBEFDBA5B20 /* TSTextFieldDelegate.h */,
+				F0C270AC0B84631E6DEB97D3E707EDAD /* Support Files */,
+			);
+			name = TSTFKit;
+			path = TSTFKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -196,16 +206,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7CDBB9D1F262C2F41027A7459D2FD71 /* Headers */ = {
+		B7DFD39766AE641EA8B109582368BDDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19731AE106B053D08EACC380E364D84A /* TFDefines.h in Headers */,
-				D3C7BB42437AB3BC91E32815993F8887 /* TFLeftImageTF.h in Headers */,
-				F869B05B7A0EBFC53236FD13236F549C /* TFLeftTitleTF.h in Headers */,
-				54C6AEADB597E6FFB1B38744F2AFCF15 /* TSTextField.h in Headers */,
-				4A4295BEABAE7F232368A086150B54F9 /* TSTextFieldDelegate.h in Headers */,
-				8B8D90E0987058283E86C65F4AB314ED /* TSTFKit-umbrella.h in Headers */,
+				D5261C65D71CE24318DDA188741419F6 /* NSString+Util.h in Headers */,
+				6CC4F98D142229C1B32EDFEA92D689EA /* TFDefines.h in Headers */,
+				E2698EA3740AF047CAC46276117A79CB /* TFLeftImageTF.h in Headers */,
+				37431F1EC801E48FD3FEABD5E64A11DF /* TFLeftTitleTF.h in Headers */,
+				37AF0AFB1AD747381D6272236541B4B4 /* TSTextField.h in Headers */,
+				D123DB0E0708FAC54D37B3011730DA3E /* TSTextFieldDelegate.h in Headers */,
+				8EF26AB0EFCEBC8803A84ADBE4C52A31 /* TSTFKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,9 +245,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25CB8A2EDDBD57AED3EE0902CEFBB1D2 /* Build configuration list for PBXNativeTarget "TSTFKit" */;
 			buildPhases = (
-				588AD41D464813B6DA9C283C146731C7 /* Sources */,
-				F09698F30A7D12C3AA796D94EDB23B37 /* Frameworks */,
-				A7CDBB9D1F262C2F41027A7459D2FD71 /* Headers */,
+				3B6A361660A378F3BD08F2F045895A96 /* Sources */,
+				BCB01930CC3F830E81421F1340522BC8 /* Frameworks */,
+				B7DFD39766AE641EA8B109582368BDDA /* Headers */,
 			);
 			buildRules = (
 			);
@@ -283,14 +294,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		588AD41D464813B6DA9C283C146731C7 /* Sources */ = {
+		3B6A361660A378F3BD08F2F045895A96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E6D5B03987721C5E6C90B246D225124 /* TFLeftImageTF.m in Sources */,
-				54D9D25741C0F50C5A58FD58685CC1BF /* TFLeftTitleTF.m in Sources */,
-				584CE73C757E3BB7E26A6931028A418A /* TSTextField.m in Sources */,
-				0ED7B215CE8E427ADD95C69895568DB5 /* TSTFKit-dummy.m in Sources */,
+				34CCEC58A041708157B5F795098A1037 /* NSString+Util.m in Sources */,
+				54FA38155ED37956F48DBB9D34366975 /* TFLeftImageTF.m in Sources */,
+				559E6DF813E9C539C3E7C3237A4FE8CA /* TFLeftTitleTF.m in Sources */,
+				80E0C7AB57CC459E6EED657841D4D7B3 /* TSTextField.m in Sources */,
+				D1247EFAF5A9B3EB818A84857364AF8D /* TSTFKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +320,7 @@
 /* Begin XCBuildConfiguration section */
 		1D122AB5B173FCEDB1E823799EB06181 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3F18D3746C135EEFDEC55D768FA2535 /* TSTFKit.xcconfig */;
+			baseConfigurationReference = D61AE73BE77F1C78BED099A3FDA4AAC3 /* TSTFKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -518,7 +530,7 @@
 		};
 		D0AE8E44E66BE76416F097B67BEF262D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3F18D3746C135EEFDEC55D768FA2535 /* TSTFKit.xcconfig */;
+			baseConfigurationReference = D61AE73BE77F1C78BED099A3FDA4AAC3 /* TSTFKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

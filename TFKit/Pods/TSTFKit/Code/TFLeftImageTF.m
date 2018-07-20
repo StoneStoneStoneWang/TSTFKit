@@ -39,6 +39,7 @@
     
     self.leftImageView.image = leftImage;
 }
+
 - (void)setLeftImageViewFrame:(CGRect)leftImageViewFrame {
     _leftImageViewFrame = leftImageViewFrame;
     
