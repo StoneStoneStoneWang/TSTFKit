@@ -10,6 +10,7 @@
 #import "TSTextField.h"
 #import "TFLeftTitleTF.h"
 #import "TFLeftImageTF.h"
+#import "NSString+Util.h"
 @interface ViewController ()
 
 @end
@@ -18,6 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSString *aa = @"aaaaaaaa@163.com";
+    
+    NSLog(@"%d",[aa validEmail]);
+    
     // Do any additional setup after loading the view, typically from a nib.
     
     TSTextField *tf = [[TSTextField alloc] initWithFrame: CGRectMake(20, 20, self.view.bounds.size.width - 40, 48)];

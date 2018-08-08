@@ -45,5 +45,10 @@
     
     self.leftImageView.frame = leftImageViewFrame;
 }
-
+- (CGRect)leftViewRectForBounds:(CGRect)bounds {
+    return [super leftViewRectForBounds:bounds];
+}
+- (CGRect)textRectForBounds:(CGRect)bounds{
+    return [super textRectForBounds:bounds];
+}
 @end

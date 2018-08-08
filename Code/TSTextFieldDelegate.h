@@ -12,6 +12,6 @@
 
 - (void)textField:(UITextField *)tf onEditChanged:(NSString *)text;
 
-- (void)textFieldReturn:(UITextField *)textFieldt;
+- (void)textFieldReturn:(UITextField *)textField;
 
 @end
