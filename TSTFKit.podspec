@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "TSTFKit"
-s.version      = "1.0.6"
+s.version      = "1.0.7"
 s.summary      = "A Lib For TextField."
 s.description  = <<-DESC
 TFKit is a smart tool for tf。
