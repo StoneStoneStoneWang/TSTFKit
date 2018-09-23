@@ -22,4 +22,6 @@ s.source = { :git => "https://github.com/StoneStoneStoneWang/TSTFKit.git", :tag 
 
 s.source_files = "Code/**/*.{h,m}"
 
+s.dependency 'TS_ToolKit'
+
 end

@@ -18,7 +18,6 @@
 		6C4DFFD220CE52CA00F3E356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFFD120CE52CA00F3E356 /* main.m */; };
 		6C4DFFDC20CE52CA00F3E356 /* TFKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFFDB20CE52CA00F3E356 /* TFKitDemoTests.m */; };
 		6C4DFFE720CE52CA00F3E356 /* TFKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFFE620CE52CA00F3E356 /* TFKitDemoUITests.m */; };
-		6CD91AF520D7BCF000DC0F6A /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD91AF420D7BCF000DC0F6A /* NSString+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +63,6 @@
 		6C4DFFE620CE52CA00F3E356 /* TFKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFKitDemoUITests.m; sourceTree = "<group>"; };
 		6C4DFFE820CE52CA00F3E356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C4E94212101D86A00B0BCBE /* TSTFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTFKit.h; sourceTree = "<group>"; };
-		6CD91AF320D7BCF000DC0F6A /* NSString+Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
-		6CD91AF420D7BCF000DC0F6A /* NSString+Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +101,6 @@
 				6C21AC4020CF7062001ABDD4 /* TSTextField.h */,
 				6C21AC4120CF7062001ABDD4 /* TSTextField.m */,
 				6C21AC4220CF7062001ABDD4 /* TSTextFieldDelegate.h */,
-				6CD91AF320D7BCF000DC0F6A /* NSString+Util.h */,
-				6CD91AF420D7BCF000DC0F6A /* NSString+Util.m */,
 				6C4E94212101D86A00B0BCBE /* TSTFKit.h */,
 			);
 			name = Code;
@@ -303,7 +298,6 @@
 				6C21AC4420CF7062001ABDD4 /* TSTextField.m in Sources */,
 				6C21AC4320CF7062001ABDD4 /* TFLeftImageTF.m in Sources */,
 				6C4DFFC720CE52CA00F3E356 /* ViewController.m in Sources */,
-				6CD91AF520D7BCF000DC0F6A /* NSString+Util.m in Sources */,
 				6C4DFFD220CE52CA00F3E356 /* main.m in Sources */,
 				6C4DFFC420CE52CA00F3E356 /* AppDelegate.m in Sources */,
 				6C21AC4720CF88B1001ABDD4 /* TFLeftTitleTF.m in Sources */,
