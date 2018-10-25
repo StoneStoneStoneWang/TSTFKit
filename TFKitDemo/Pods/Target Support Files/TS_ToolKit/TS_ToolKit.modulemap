@@ -1,0 +1,6 @@
+framework module TS_ToolKit {
+  umbrella header "TS_ToolKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

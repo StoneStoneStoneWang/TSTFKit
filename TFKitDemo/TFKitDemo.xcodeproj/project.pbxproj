@@ -10,6 +10,7 @@
 		6C21AC4320CF7062001ABDD4 /* TFLeftImageTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C21AC3F20CF7062001ABDD4 /* TFLeftImageTF.m */; };
 		6C21AC4420CF7062001ABDD4 /* TSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C21AC4120CF7062001ABDD4 /* TSTextField.m */; };
 		6C21AC4720CF88B1001ABDD4 /* TFLeftTitleTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C21AC4620CF88B1001ABDD4 /* TFLeftTitleTF.m */; };
+		6C271D2F2181D5FE00A8A7B4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6C271D2E2181D5FE00A8A7B4 /* Podfile */; };
 		6C4DFFC420CE52CA00F3E356 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFFC320CE52CA00F3E356 /* AppDelegate.m */; };
 		6C4DFFC720CE52CA00F3E356 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFFC620CE52CA00F3E356 /* ViewController.m */; };
 		6C4DFFCA20CE52CA00F3E356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C4DFFC820CE52CA00F3E356 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 		6C4DFFD220CE52CA00F3E356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFFD120CE52CA00F3E356 /* main.m */; };
 		6C4DFFDC20CE52CA00F3E356 /* TFKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFFDB20CE52CA00F3E356 /* TFKitDemoTests.m */; };
 		6C4DFFE720CE52CA00F3E356 /* TFKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4DFFE620CE52CA00F3E356 /* TFKitDemoUITests.m */; };
+		C3ED3531E7A3942F671F98F9 /* Pods_TFKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0170DF9AAAF889B5D25EC4 /* Pods_TFKitDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		462B2E581AEE7C7579E2CB55 /* Pods-TFKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TFKitDemo/Pods-TFKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6C21AC3D20CF7062001ABDD4 /* TFDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDefines.h; sourceTree = "<group>"; };
 		6C21AC3E20CF7062001ABDD4 /* TFLeftImageTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFLeftImageTF.h; sourceTree = "<group>"; };
 		6C21AC3F20CF7062001ABDD4 /* TFLeftImageTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFLeftImageTF.m; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		6C21AC4220CF7062001ABDD4 /* TSTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTextFieldDelegate.h; sourceTree = "<group>"; };
 		6C21AC4520CF88B1001ABDD4 /* TFLeftTitleTF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFLeftTitleTF.h; sourceTree = "<group>"; };
 		6C21AC4620CF88B1001ABDD4 /* TFLeftTitleTF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFLeftTitleTF.m; sourceTree = "<group>"; };
+		6C271D2E2181D5FE00A8A7B4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		6C4DFFBF20CE52CA00F3E356 /* TFKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4DFFC220CE52CA00F3E356 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C4DFFC320CE52CA00F3E356 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 		6C4DFFE620CE52CA00F3E356 /* TFKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFKitDemoUITests.m; sourceTree = "<group>"; };
 		6C4DFFE820CE52CA00F3E356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C4E94212101D86A00B0BCBE /* TSTFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSTFKit.h; sourceTree = "<group>"; };
+		C4FDD1157D452AED99B10988 /* Pods-TFKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TFKitDemo/Pods-TFKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EF0170DF9AAAF889B5D25EC4 /* Pods_TFKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3ED3531E7A3942F671F98F9 /* Pods_TFKitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B9E3095A5A5BFBDDDDA6F3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4FDD1157D452AED99B10988 /* Pods-TFKitDemo.debug.xcconfig */,
+				462B2E581AEE7C7579E2CB55 /* Pods-TFKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3CD466FA6ED726CDEC6E5DAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0170DF9AAAF889B5D25EC4 /* Pods_TFKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C21AC3C20CF7062001ABDD4 /* Code */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,10 +134,13 @@
 		6C4DFFB620CE52CA00F3E356 = {
 			isa = PBXGroup;
 			children = (
+				6C271D2E2181D5FE00A8A7B4 /* Podfile */,
 				6C4DFFC120CE52CA00F3E356 /* TFKitDemo */,
 				6C4DFFDA20CE52CA00F3E356 /* TFKitDemoTests */,
 				6C4DFFE520CE52CA00F3E356 /* TFKitDemoUITests */,
 				6C4DFFC020CE52CA00F3E356 /* Products */,
+				1B9E3095A5A5BFBDDDDA6F3D /* Pods */,
+				3CD466FA6ED726CDEC6E5DAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C4DFFEB20CE52CA00F3E356 /* Build configuration list for PBXNativeTarget "TFKitDemo" */;
 			buildPhases = (
+				875222F9D5806C7B61F5DB55 /* [CP] Check Pods Manifest.lock */,
 				6C4DFFBB20CE52CA00F3E356 /* Sources */,
 				6C4DFFBC20CE52CA00F3E356 /* Frameworks */,
 				6C4DFFBD20CE52CA00F3E356 /* Resources */,
+				4EFD66B295EB85A37544D664 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +299,7 @@
 			files = (
 				6C4DFFCF20CE52CA00F3E356 /* LaunchScreen.storyboard in Resources */,
 				6C4DFFCC20CE52CA00F3E356 /* Assets.xcassets in Resources */,
+				6C271D2F2181D5FE00A8A7B4 /* Podfile in Resources */,
 				6C4DFFCA20CE52CA00F3E356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +319,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EFD66B295EB85A37544D664 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TFKitDemo/Pods-TFKitDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TS_ToolKit/TS_ToolKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TS_ToolKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TFKitDemo/Pods-TFKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		875222F9D5806C7B61F5DB55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TFKitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C4DFFBB20CE52CA00F3E356 /* Sources */ = {
@@ -461,6 +538,7 @@
 		};
 		6C4DFFEC20CE52CA00F3E356 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FDD1157D452AED99B10988 /* Pods-TFKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +554,7 @@
 		};
 		6C4DFFED20CE52CA00F3E356 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462B2E581AEE7C7579E2CB55 /* Pods-TFKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

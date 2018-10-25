@@ -21,6 +21,8 @@ typedef NS_ENUM(NSInteger, TextFieldEditType) {
     /** 价格输入  小数点后2位*/
     TextFieldEditTypePriceEdit,
     /** 默认 */
-    TextFieldEditTypeDetault
+    TextFieldEditTypeDetault,
+    /** 文本内容规定长度 比如只能输入2-10个字符 */
+    TextFieldEditTypeContentDefineLength,
 };
 

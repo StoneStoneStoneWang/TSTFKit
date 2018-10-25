@@ -13,8 +13,6 @@
 
 #import "TFLeftTitleTF.h"
 
-#import "NSString+Util.h"
-
 #import "TFDefines.h"
 
 #import "TSTextFieldDelegate.h"

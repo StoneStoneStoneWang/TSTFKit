@@ -10,7 +10,7 @@
 #import "TSTextField.h"
 #import "TFLeftTitleTF.h"
 #import "TFLeftImageTF.h"
-#import "NSString+Util.h"
+
 @interface ViewController ()
 
 @end
@@ -21,8 +21,6 @@
     [super viewDidLoad];
     
     NSString *aa = @"aaaaaaaa@163.com";
-    
-    NSLog(@"%d",[aa validEmail]);
     
     // Do any additional setup after loading the view, typically from a nib.
     
@@ -83,7 +81,6 @@
     price.leftTitle = @"支付";
     
     [price makeEditType:(TextFieldEditTypePriceEdit)];
-    
     
     TFLeftTitleTF *secret = [[TFLeftTitleTF alloc] initWithFrame: CGRectMake(20, 280, self.view.bounds.size.width - 40, 48)];
     

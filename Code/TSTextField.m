@@ -7,7 +7,7 @@
 //
 
 #import "TSTextField.h"
-
+#import "NSString+ByteLength.h"
 #define Top_Line_Tag 1001
 
 #define Bottom_Line_Tag 1002
@@ -43,7 +43,7 @@
     self.keyboardType = UIKeyboardTypeDefault;
     
     switch (self.type) {
-        case TextFieldEditTypeSecret:
+            case TextFieldEditTypeSecret:
         {
             self.secureTextEntry = true;
             
@@ -52,41 +52,45 @@
             self.keyboardType = UIKeyboardTypeDefault;
         }
             break;
-        case TextFieldEditTypePhone:
+            case TextFieldEditTypePhone:
         {
             self.keyboardType = UIKeyboardTypeNumberPad;
             
             self.maxLength = 11;
         }
             break;
-        case TextFieldEditTypeVCode_Length4:
+            case TextFieldEditTypeVCode_Length4:
         {
             self.keyboardType = UIKeyboardTypeNumberPad;
             
             self.maxLength = 4;
         }
             break;
-        case TextFieldEditTypeVCode_Length6:
+            case TextFieldEditTypeVCode_Length6:
         {
             self.keyboardType = UIKeyboardTypeNumberPad;
             
             self.maxLength = 6;
         }
             break;
-        case TextFieldEditTypePriceEdit:
+            case TextFieldEditTypePriceEdit:
         {
             self.keyboardType = UIKeyboardTypeDecimalPad;
             
             self.maxLength = 10;
         }
             break;
-        case TextFieldEditTypeDetault:
+            case TextFieldEditTypeDetault:
         {
             self.maxLength = 99;
         }
             break;
-        default:
+            case TextFieldEditTypeContentDefineLength:
             
+            self.maxLength = 10;
+            
+            break;
+        default:
             
             break;
     }
@@ -161,6 +165,18 @@
 
 - (void)onEditChanged:(UITextField *)tf {
     
+    if (self.type == TextFieldEditTypeContentDefineLength) {
+        
+        NSString *toBeString = tf.text;
+        
+        while ([toBeString byteLengh] > self.maxLength) {
+            
+            toBeString = [toBeString substringToIndex:self.maxLength];
+            
+            tf.text = toBeString;
+        }
+    }
+    
     if (_mDelegate && [_mDelegate respondsToSelector:@selector(textFieldReturn:)]) {
         
         [_mDelegate textField:tf onEditChanged:tf.text];
@@ -175,9 +191,9 @@
     
     //    NSLog(@"%@",range);
     switch (self.type) {
-        case TextFieldEditTypePhone:
-        case TextFieldEditTypeVCode_Length4:
-        case TextFieldEditTypeVCode_Length6:
+            case TextFieldEditTypePhone:
+            case TextFieldEditTypeVCode_Length4:
+            case TextFieldEditTypeVCode_Length6:
         {
             cs = [[NSCharacterSet characterSetWithCharactersInString:myNumbers] invertedSet];
             
@@ -202,7 +218,7 @@
             }
             return range.length == 1 && string.length == 0 ? true : textField.text.length < self.maxLength;
         }
-        case TextFieldEditTypePriceEdit:
+            case TextFieldEditTypePriceEdit:
         {
             
             NSUInteger nDotLoc = [textField.text rangeOfString:@"."].location;
@@ -226,6 +242,31 @@
             }
             
             return range.length == 1 && string.length == 0 ? true : textField.text.length < self.maxLength;
+        }
+            case TextFieldEditTypeContentDefineLength:
+        {
+            NSString *toBeString = [textField.text stringByReplacingCharactersInRange:range withString:string];
+            
+            NSInteger charLen = [toBeString byteLengh];
+            
+            if (charLen > self.maxLength) {
+                
+                if (![string isEqualToString:@""]) {
+                    
+                    if ([textField.text byteLengh] != self.maxLength) {
+                        
+                        while ([toBeString byteLengh] > self.maxLength) {
+                            
+                            toBeString = [toBeString substringToIndex:toBeString.length - 1];
+                            
+                            textField.text = toBeString;
+                        }
+                    }
+                    
+                    return false;
+                }
+            }
+            return true;
         }
         default:
             return range.length == 1 && string.length == 0 ? true : textField.text.length < self.maxLength;

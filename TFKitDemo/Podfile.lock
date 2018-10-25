@@ -1,0 +1,21 @@
+PODS:
+  - TS_ToolKit (1.0.1)
+
+DEPENDENCIES:
+  - TS_ToolKit (from `https://github.com/StoneStoneStoneWang/TS_ToolKit.git`)
+
+EXTERNAL SOURCES:
+  TS_ToolKit:
+    :git: https://github.com/StoneStoneStoneWang/TS_ToolKit.git
+
+CHECKOUT OPTIONS:
+  TS_ToolKit:
+    :commit: 0f56e001b87e91d4fa859472ddcb26e665b64318
+    :git: https://github.com/StoneStoneStoneWang/TS_ToolKit.git
+
+SPEC CHECKSUMS:
+  TS_ToolKit: cfab9ba0031fb4ca75ca61b3968deb625aba9f22
+
+PODFILE CHECKSUM: 5a31cf07777acecd581aae2a32ced06e512400ec
+
+COCOAPODS: 1.5.3

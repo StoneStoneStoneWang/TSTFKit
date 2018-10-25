@@ -10,12 +10,12 @@
 #endif
 #endif
 
-#import "NSString+Util.h"
 #import "TFDefines.h"
 #import "TFLeftImageTF.h"
 #import "TFLeftTitleTF.h"
 #import "TSTextField.h"
 #import "TSTextFieldDelegate.h"
+#import "TSTFKit.h"
 
 FOUNDATION_EXPORT double TSTFKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TSTFKitVersionString[];

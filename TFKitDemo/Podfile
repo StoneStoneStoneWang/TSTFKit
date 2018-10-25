@@ -1,0 +1,10 @@
+platform :ios, ‘9.0’
+
+use_frameworks!
+
+target 'TFKitDemo' do
+
+pod 'TS_ToolKit',:git=>'https://github.com/StoneStoneStoneWang/TS_ToolKit.git'
+
+end
+

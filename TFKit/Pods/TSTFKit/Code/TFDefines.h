@@ -7,13 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
-// 一般情况下 登陆注册 都是左边icon 右边输入文本
+/** 文本框内容 样式 */
 typedef NS_ENUM(NSInteger, TextFieldEditType) {
-    TextFieldEditTypePhone, // 手机号
-    TextFieldEditTypeSecret, // 密码
-    TextFieldEditTypeVCode_Length4, // 4位验证码
-    TextFieldEditTypeVCode_Length6, // 6位验证码
-    TextFieldEditTypePriceEdit,  // 价格输入
+    
+    /** 手机号 默认判断是长度11位 首位为1的+86手机号 如果是复制过去的 加入了-处理机制 比如从通讯录复制*/
+    TextFieldEditTypePhone,
+    /** 密码 暗文 secureTextEntry true 6-18位*/
+    TextFieldEditTypeSecret,
+    /** 4位验证码 */
+    TextFieldEditTypeVCode_Length4,
+    /** 6位验证码 */
+    TextFieldEditTypeVCode_Length6,
+    /** 价格输入  小数点后2位*/
+    TextFieldEditTypePriceEdit,
+    /** 默认 */
     TextFieldEditTypeDetault
 };
 

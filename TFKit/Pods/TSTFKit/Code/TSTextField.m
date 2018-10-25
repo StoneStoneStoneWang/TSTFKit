@@ -130,7 +130,7 @@
     // 背景颜色
     self.backgroundColor = [UIColor clearColor];
     // 清除按钮类型
-    self.clearButtonMode = UITextFieldViewModeAlways;
+    self.clearButtonMode = UITextFieldViewModeWhileEditing;
     // 当文本发生改变时 添加 onEditChanged事件
     [self addTarget:self action:@selector(onEditChanged:) forControlEvents:UIControlEventEditingChanged];
     // 文本最长长度
@@ -228,7 +228,7 @@
             return range.length == 1 && string.length == 0 ? true : textField.text.length < self.maxLength;
         }
         default:
-            break;
+            return range.length == 1 && string.length == 0 ? true : textField.text.length < self.maxLength;
     }
     
     return self.maxLength;
