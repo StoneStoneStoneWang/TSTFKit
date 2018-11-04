@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "TSTFKit"
-s.version      = "1.0.8"
+s.version      = "1.0.9"
 s.summary      = "A Lib For TextField."
 s.description  = <<-DESC
 TFKit is a smart tool for tf。
@@ -23,5 +23,7 @@ s.source = { :git => "https://github.com/StoneStoneStoneWang/TSTFKit.git", :tag 
 s.source_files = "Code/**/*.{h,m}"
 
 s.dependency 'TS_ToolKit'
+
+s.dependency 'IQKeyboardManager'
 
 end
