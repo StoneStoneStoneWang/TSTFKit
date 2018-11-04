@@ -49,7 +49,7 @@
 		6C21AC4220CF7062001ABDD4 /* TSTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTextFieldDelegate.h; sourceTree = "<group>"; };
 		6C21AC4520CF88B1001ABDD4 /* TFLeftTitleTF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFLeftTitleTF.h; sourceTree = "<group>"; };
 		6C21AC4620CF88B1001ABDD4 /* TFLeftTitleTF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFLeftTitleTF.m; sourceTree = "<group>"; };
-		6C271D2E2181D5FE00A8A7B4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6C271D2E2181D5FE00A8A7B4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C4DFFBF20CE52CA00F3E356 /* TFKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C4DFFC220CE52CA00F3E356 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C4DFFC320CE52CA00F3E356 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
