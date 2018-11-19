@@ -15,21 +15,32 @@
 // 基类 仅初始化与处理事件
 @interface TSTextField : UITextField
 
++ (instancetype)textField;
+
 /** 文本框代理  */
 
 @property (nonatomic,weak) id<TSTextFieldDelegate> mDelegate;
+
+@property (nonatomic ,copy ,readonly) TSTextChangedBlock textChanged;
+
+// 正则表达式
+@property (nonatomic ,copy) NSString *pattern;
+// 最大长度
+@property (nonatomic,assign) NSInteger maxLength;
 
 /** 文本框顶部line 颜色  */
 @property (nonatomic ,strong) UIColor *topLineColor;
 /** 文本框底部line 颜色  */
 @property (nonatomic ,strong) UIColor *bottomLineColor;
-// 最大长度
-@property (nonatomic,assign) int maxLength;
 
 #pragma mark --- 初始化属性
 - (void)commitInit;
 
 // 设置类型 参考枚举定义
+@property (nonatomic ,assign ,readonly) TextFieldEditType type;
+
 - (void)makeEditType:(TextFieldEditType)type;
+
+- (void)setTextChanged:(TSTextChangedBlock)textChanged;
 
 @end

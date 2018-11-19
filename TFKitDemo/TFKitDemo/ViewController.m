@@ -20,8 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *aa = @"aaaaaaaa@163.com";
-    
     // Do any additional setup after loading the view, typically from a nib.
     
     TSTextField *tf = [[TSTextField alloc] initWithFrame: CGRectMake(20, 20, self.view.bounds.size.width - 40, 48)];
@@ -30,9 +28,14 @@
     
     tf.bottomLineColor = [UIColor lightGrayColor];
     
-    tf.placeholder = @"请输入手机号";
+    tf.placeholder = @"请输入2-10个字符";
     
-    [tf makeEditType:(TextFieldEditTypePhone)];
+    [tf makeEditType:(TextFieldEditTypeContentDefineLength)];
+    
+    [tf setTextChanged:^(UITextField *textField) {
+       
+        NSLog(@"%@ ",textField.text);
+    }];
     
     TFLeftTitleTF *ltf = [[TFLeftTitleTF alloc] initWithFrame: CGRectMake(20, 80, self.view.bounds.size.width - 40, 48)];
     
@@ -109,6 +112,8 @@
     phone.backgroundColor = [UIColor blueColor];
     
     phone.bottomLineColor = [UIColor lightGrayColor];
+    
+    
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

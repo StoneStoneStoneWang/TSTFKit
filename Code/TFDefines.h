@@ -26,3 +26,4 @@ typedef NS_ENUM(NSInteger, TextFieldEditType) {
     TextFieldEditTypeContentDefineLength,
 };
 
+typedef void(^TSTextChangedBlock)(UITextField *textField);

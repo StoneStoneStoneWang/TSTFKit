@@ -1,6 +1,0 @@
-framework module TSTFKit {
-  umbrella header "TSTFKit-umbrella.h"
-
-  export *
-  module * { export * }
-}
